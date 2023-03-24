@@ -5,7 +5,6 @@
  */
 function twoNumberSum($array, $targetSum)
 {
-    // Write your code here
     $seen = [];
     foreach ($array as $item) {
         $diff = $targetSum - $item;
