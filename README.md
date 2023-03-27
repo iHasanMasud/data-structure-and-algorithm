@@ -7,3 +7,6 @@ This repository contains the implementation of various data structures and algor
 2. [Validate Subsequence](./Easy/ValidateSubsequence.php)
 3. [Sorted Squared Array](./Easy/SortedSquaredArray.php)
 4. [Tournament Winner](./Easy/TournamentWinner.php)
+5. [Non-Constructible Change](./Easy/NonConstructibleChange.php)
+6. [Find Closest Value In BST](./Easy/FindClosestValueInBST.php)
+7. [Branch Sums](./Easy/BranchSums.php)
