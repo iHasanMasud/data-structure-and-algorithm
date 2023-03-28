@@ -9,36 +9,24 @@
 function branchSums($root)
 {
     $sums = [];
-    $stack = [["node" => $root, "sum" => 0]];
+    calculateBranchSums($root, 0, $sums);
+    return $sums;
+}
 
-    while (count($stack) > 0) {
-        $current = array_pop($stack);
-        $node = $current["node"];
-        $sum = $current["sum"];
-
-        if ($node == null) {
-            continue;
-        }
-
-        $newSum = $sum + $node["value"];
-
-        if ($node["left"] == null && $node["right"] == null) {
-            $sums[] = $newSum;
-            continue;
-        }
-
-        $stack[] = [
-            "node" => $node["left"],
-            "sum" => $newSum
-        ];
-
-        $stack[] = [
-            "node" => $node["right"],
-            "sum" => $newSum
-        ];
+function calculateBranchSums($node, $runningSum, &$sums)
+{
+    if ($node === null) {
+        return;
     }
 
-    return $sums;
+    $newRunningSum = $runningSum + $node['value'];
+    if ($node['left'] === null && $node['right'] === null) {
+        $sums[] = $newRunningSum;
+        return;
+    }
+
+    calculateBranchSums($node['left'], $newRunningSum, $sums);
+    calculateBranchSums($node['right'], $newRunningSum, $sums);
 }
 
 $tree = [
