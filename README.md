@@ -10,3 +10,4 @@ This repository contains the implementation of various data structures and algor
 5. [Non-Constructible Change](./Easy/NonConstructibleChange.php)
 6. [Find Closest Value In BST](./Easy/FindClosestValueInBST.php)
 7. [Branch Sums](./Easy/BranchSums.php)
+8. [Node Depths](./Easy/NodeDepths.php)
