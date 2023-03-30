@@ -11,3 +11,4 @@ This repository contains the implementation of various data structures and algor
 6. [Find Closest Value In BST](./Easy/FindClosestValueInBST.php)
 7. [Branch Sums](./Easy/BranchSums.php)
 8. [Node Depths](./Easy/NodeDepths.php)
+9. [Minimum Waiting Time](./Easy/MinimumWaitingTime.php)
