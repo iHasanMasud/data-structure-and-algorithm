@@ -12,3 +12,5 @@ This repository contains the implementation of various data structures and algor
 7. [Branch Sums](./Easy/BranchSums.php)
 8. [Node Depths](./Easy/NodeDepths.php)
 9. [Minimum Waiting Time](./Easy/MinimumWaitingTime.php)
+10. [Class Photos](./Easy/ClassPhotos.php)
+11. [Tandem Bicycle](./Easy/TandemBicycle.php)
