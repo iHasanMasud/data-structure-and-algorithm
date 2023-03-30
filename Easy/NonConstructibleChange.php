@@ -6,7 +6,6 @@
  * If it is, then return the minimum change + 1.
  * Otherwise, add the current coin to the minimum change.
  * Finally, return the minimum change + 1.
- * Author: https://github.com/iHasanMasud
  */
 
 function nonConstructibleChange($coins)

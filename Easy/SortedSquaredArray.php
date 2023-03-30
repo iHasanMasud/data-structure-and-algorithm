@@ -1,7 +1,6 @@
 <?php
 /**
  * Sorted Squared Array
- * Author: https://github.com/iHasanMasud
  */
 
 function sortedSquaredArray($array){

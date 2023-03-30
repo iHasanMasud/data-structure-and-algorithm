@@ -1,7 +1,6 @@
 <?php
 /**
  * Two Number Sum
- * Author: https://github.com/iHasanMasud
  */
 function twoNumberSum($array, $targetSum)
 {
