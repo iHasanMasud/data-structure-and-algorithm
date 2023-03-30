@@ -1,7 +1,6 @@
 <?php
 /**
  * Node Depths
- * Author: https://github.com/iHasanMasud
  */
 
 function nodeDepths($root)

@@ -2,7 +2,6 @@
 
 /**
  * Validate Subsequence
- * Author: https://github.com/iHasanMasud
  */
 
 function isValidSubsequence($array, $sequence){

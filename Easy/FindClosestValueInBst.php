@@ -7,7 +7,6 @@
  * If it is, then go to the left node.
  * Otherwise, go to the right node.
  * Finally, return the closest value.
- * Author: https://github.com/iHasanMasud
  */
 
 function findClosestValueInBST($tree, $target) {

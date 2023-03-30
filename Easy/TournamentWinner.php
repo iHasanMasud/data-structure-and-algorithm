@@ -1,7 +1,6 @@
 <?php
 /**
  * Tournament Winner
- * Author: https://github.com/iHasanMasud
  */
 
 function tournamentWinner($competitions, $results)

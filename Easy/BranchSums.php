@@ -1,7 +1,6 @@
 <?php
 /**
  * Branch Sums
- * Author: https://github.com/iHasanMasud
  */
 
 // Use recursion to traverse the tree.
