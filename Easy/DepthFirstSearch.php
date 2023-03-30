@@ -2,6 +2,8 @@
 
 /**
  * Depth First Search
+ * Explanation: Write a function that takes in a Node class that has a name and an array of optional children nodes.
+ * Algorithm: 1. Use recursion to traverse the tree.
  */
 
 class Node

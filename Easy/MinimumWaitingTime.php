@@ -2,6 +2,8 @@
 
 /**
  * Minimum Waiting Time
+ * Explanation: Write a function that takes in a non-empty array of positive integers representing the amounts of time that specific queries take to execute.
+ * Algorithm: Sort the array and calculate the total waiting time.
  * Runtime: O(nlog(n)) | Space: O(1)
  */
 
