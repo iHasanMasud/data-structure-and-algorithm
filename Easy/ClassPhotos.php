@@ -1,6 +1,10 @@
 <?php
 /**
  * Class Photos
+ * Explanation: Write a function that takes in two arrays of positive integers.
+ * Each array represents a row of students in a class, where each integer in the array is the height of that student in inches.
+ * Your function should return a boolean representing whether a class photo that follows the guidelines below can be taken.
+ * Algorithm: Sort the arrays and compare the first elements of each array.
  */
 
 function classPhotos($redShirtHeights, $blueShirtHeights) {
