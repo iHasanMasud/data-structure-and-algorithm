@@ -16,3 +16,5 @@ This repository contains the implementation of various data structures and algor
 11. [Class Photos](./Easy/ClassPhotos.php)
 12. [Tandem Bicycle](./Easy/TandemBicycle.php)
 13. [Remove Duplicates From Linked List](./Easy/RemoveDuplicatesFromLinkedList.php)
+14. [Nth Fibonacci](./Easy/NthFibonacci.php)
+15. [Product Sum](./Easy/ProductSum.php)
