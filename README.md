@@ -18,3 +18,4 @@ This repository contains the implementation of various data structures and algor
 13. [Remove Duplicates From Linked List](./Easy/RemoveDuplicatesFromLinkedList.php)
 14. [Nth Fibonacci](./Easy/NthFibonacci.php)
 15. [Product Sum](./Easy/ProductSum.php)
+16. [Binary Search](./Easy/BinarySearch.php)
