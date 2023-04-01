@@ -21,3 +21,4 @@ This repository contains the implementation of various data structures and algor
 16. [Binary Search](./Easy/BinarySearch.php)
 17. [Find Three Largest Numbers](./Easy/FindThreeLargestNumbers.php)
 18. [Bubble Sort](./Easy/BubbleSort.php)
+19. [Insertion Sort](./Easy/InsertionSort.php)
