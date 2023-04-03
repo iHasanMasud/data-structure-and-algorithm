@@ -23,3 +23,4 @@ This repository contains the implementation of various data structures and algor
 18. [Bubble Sort](./Easy/BubbleSort.php)
 19. [Insertion Sort](./Easy/InsertionSort.php)
 20. [Selection Sort](./Easy/SelectionSort.php)
+21. [Palindrome Checker](./Easy/PalindromeChecker.php)
