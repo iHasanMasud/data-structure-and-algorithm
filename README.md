@@ -23,3 +23,7 @@ This repository contains the implementation of various data structures and algor
 18. [Bubble Sort](./Easy/BubbleSort.php)
 19. [Insertion Sort](./Easy/InsertionSort.php)
 20. [Selection Sort](./Easy/SelectionSort.php)
+21. [Palindrome Checker](./Easy/PalindromeChecker.php)
+22. [Caesar Cipher Encryptor](./Easy/CaesarCipherEncryptor.php)
+23. [Run Length Encoding](./Easy/RunLengthEncoding.php)
+24. [Generate Document](./Easy/GenerateDocument.php)
