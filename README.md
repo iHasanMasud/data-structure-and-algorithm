@@ -29,3 +29,6 @@ This repository contains the implementation of various data structures and algor
 24. [Generate Document](./Easy/GenerateDocument.php)
 25. [First Non-Repeating Character](./Easy/FirstNonRepeatingCharacter.php)
 26. [Semordnilap](./Easy/Semordnilap.php)
+
+#### Medium
+1. [Three Number Sum](./Medium/ThreeNumberSum.php)
