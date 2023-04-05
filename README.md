@@ -27,3 +27,10 @@ This repository contains the implementation of various data structures and algor
 22. [Caesar Cipher Encryptor](./Easy/CaesarCipherEncryptor.php)
 23. [Run Length Encoding](./Easy/RunLengthEncoding.php)
 24. [Generate Document](./Easy/GenerateDocument.php)
+25. [First Non-Repeating Character](./Easy/FirstNonRepeatingCharacter.php)
+26. [Semordnilap](./Easy/Semordnilap.php)
+
+#### Medium
+1. [Three Number Sum](./Medium/ThreeNumberSum.php)
+2. [Smallest Difference](./Medium/SmallestDifference.php)
+3. [Move Element To End](./Medium/MoveElementToEnd.php)
