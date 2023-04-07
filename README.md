@@ -35,3 +35,4 @@ This repository contains the implementation of various data structures and algor
 2. [Smallest Difference](./Medium/SmallestDifference.php)
 3. [Move Element To End](./Medium/MoveElementToEnd.php)
 4. [Monotonic Array](./Medium/MonotonicArray.php)
+5. [Spiral Traverse](./Medium/SpiralTraverse.php)
