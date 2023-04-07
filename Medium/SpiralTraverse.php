@@ -23,17 +23,15 @@ function spiralTraverse($array)
         }
 
         for ($i = $endCol - 1; $i >= $startCol; $i--) {
-            if ($startRow === $endRow) {
-                break;
+            if ($endRow > $startRow) {
+                $result[] = $array[$endRow][$i];
             }
-            $result[] = $array[$endRow][$i];
         }
 
         for ($i = $endRow - 1; $i > $startRow; $i--) {
-            if ($startCol === $endCol) {
-                break;
+            if ($endCol > $startCol) {
+                $result[] = $array[$i][$startCol];
             }
-            $result[] = $array[$i][$startCol];
         }
 
         $startRow++;
