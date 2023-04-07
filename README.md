@@ -36,3 +36,4 @@ This repository contains the implementation of various data structures and algor
 3. [Move Element To End](./Medium/MoveElementToEnd.php)
 4. [Monotonic Array](./Medium/MonotonicArray.php)
 5. [Spiral Traverse](./Medium/SpiralTraverse.php)
+6. [Longest Peak](./Medium/LongestPeak.php)
