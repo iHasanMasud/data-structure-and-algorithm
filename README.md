@@ -37,3 +37,5 @@ This repository contains the implementation of various data structures and algor
 4. [Monotonic Array](./Medium/MonotonicArray.php)
 5. [Spiral Traverse](./Medium/SpiralTraverse.php)
 6. [Longest Peak](./Medium/LongestPeak.php)
+7. [Array Of Products](./Medium/ArrayOfProducts.php)
+8. [First Duplicate Value](./Medium/FirstDuplicateValue.php)
