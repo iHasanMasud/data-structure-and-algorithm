@@ -40,3 +40,4 @@ This repository contains the implementation of various data structures and algor
 7. [Array Of Products](./Medium/ArrayOfProducts.php)
 8. [First Duplicate Value](./Medium/FirstDuplicateValue.php)
 9. [Merge Overlapping Intervals](./Medium/MergeOverlappingIntervals.php)
+10. [Best Seat](./Medium/BestSeat.php)
