@@ -41,3 +41,4 @@ This repository contains the implementation of various data structures and algor
 8. [First Duplicate Value](./Medium/FirstDuplicateValue.php)
 9. [Merge Overlapping Intervals](./Medium/MergeOverlappingIntervals.php)
 10. [Best Seat](./Medium/BestSeat.php)
+11. [Zero Sum Subarray](./Medium/ZeroSumSubarray.php)
