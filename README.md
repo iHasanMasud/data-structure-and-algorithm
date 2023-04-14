@@ -30,6 +30,7 @@ This repository contains the implementation of various data structures and algor
 25. [First Non-Repeating Character](./Easy/FirstNonRepeatingCharacter.php)
 26. [Semordnilap](./Easy/Semordnilap.php)
 27. [Common Characters](./Easy/CommonCharacters.php)
+28. [Middle Node](./Easy/MiddleNode.php)
 
 #### Medium
 1. [Three Number Sum](./Medium/ThreeNumberSum.php)
@@ -43,3 +44,4 @@ This repository contains the implementation of various data structures and algor
 9. [Merge Overlapping Intervals](./Medium/MergeOverlappingIntervals.php)
 10. [Best Seat](./Medium/BestSeat.php)
 11. [Zero Sum Subarray](./Medium/ZeroSumSubarray.php)
+12. [Missing Numbers](./Medium/MissingNumbers.php)
