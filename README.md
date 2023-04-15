@@ -46,3 +46,4 @@ This repository contains the implementation of various data structures and algor
 10. [Best Seat](./Medium/BestSeat.php)
 11. [Zero Sum Subarray](./Medium/ZeroSumSubarray.php)
 12. [Missing Numbers](./Medium/MissingNumbers.php)
+13. [BST Construction](./Medium/BSTConstruction.php)
