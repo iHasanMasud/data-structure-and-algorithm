@@ -31,6 +31,7 @@ This repository contains the implementation of various data structures and algor
 26. [Semordnilap](./Easy/Semordnilap.php)
 27. [Common Characters](./Easy/CommonCharacters.php)
 28. [Middle Node](./Easy/MiddleNode.php)
+29. [Evaluate Expression Tree](./Easy/EvaluateExpressionTree.php)
 
 #### Medium
 1. [Three Number Sum](./Medium/ThreeNumberSum.php)
