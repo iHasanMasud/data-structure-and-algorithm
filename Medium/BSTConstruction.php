@@ -20,21 +20,18 @@
  * Reference for Insert: https://www.youtube.com/watch?v=COZK7NATh4k
  */
 
-class BST
-{
+class BST {
     public $value;
     public $left;
     public $right;
 
-    public function __construct($value)
-    {
+    public function __construct($value) {
         $this->value = $value;
         $this->left = null;
         $this->right = null;
     }
 
-    public function insert($value)
-    {
+    public function insert($value) {
         $currentNode = $this;
         while (true) {
             if ($value < $currentNode->value) {
@@ -56,63 +53,62 @@ class BST
         return $this;
     }
 
-    public function contains($value)
-    {
+    public function contains($value) {
         $currentNode = $this;
-
         while ($currentNode !== null) {
             if ($value < $currentNode->value) {
                 $currentNode = $currentNode->left;
-            } elseif ($value > $currentNode->value) {
+            } else if ($value > $currentNode->value) {
                 $currentNode = $currentNode->right;
             } else {
                 return true;
             }
         }
-
-        return $this;
+        return false;
     }
 
-    public function remove($value, $parent = null)
-    {
+    public function remove($value, $parentNode = null) {
         $currentNode = $this;
         while ($currentNode !== null) {
             if ($value < $currentNode->value) {
-                $parent = $currentNode;
+                $parentNode = $currentNode;
                 $currentNode = $currentNode->left;
-            } elseif ($value > $currentNode->value) {
-                $parent = $currentNode;
+            } else if ($value > $currentNode->value) {
+                $parentNode = $currentNode;
                 $currentNode = $currentNode->right;
             } else {
-                if ($currentNode->left !== null && $currentNode->right !== null) {
-                    $currentNode->value = $currentNode->right->getMinValue();
-                    $currentNode->right->remove($currentNode->value, $currentNode);
-                } elseif ($parent === null) {
-                    if ($currentNode->left !== null) {
-                        $currentNode->value = $currentNode->left->value;
-                        $currentNode->right = $currentNode->left->right;
-                        $currentNode->left = $currentNode->left->left;
-                    } elseif ($currentNode->right !== null) {
-                        $currentNode->value = $currentNode->right->value;
-                        $currentNode->left = $currentNode->right->left;
-                        $currentNode->right = $currentNode->right->right;
-                    } else {
-                        // single node tree
-                    }
-                } elseif ($parent->left === $currentNode) {
-                    $parent->left = $currentNode->left !== null ? $currentNode->left : $currentNode->right;
-                } elseif ($parent->right === $currentNode) {
-                    $parent->right = $currentNode->left !== null ? $currentNode->left : $currentNode->right;
-                }
+                $this->shuffleNode($currentNode, $parentNode);
                 break;
             }
         }
-
         return $this;
     }
 
-    public function getMinValue()
-    {
+    public function shuffleNode($currentNode, $parentNode) {
+        $leftNodeExists = $currentNode->left !== null;
+        $rightNodeExists = $currentNode->right !== null;
+
+        if ($leftNodeExists && $rightNodeExists) {
+            $currentNode->value = $currentNode->right->getMinValue();
+            $currentNode->right->remove($currentNode->value, $currentNode);
+        } else if ($parentNode === null) {
+            if ($leftNodeExists) {
+                $currentNode->value = $currentNode->left->value;
+                $currentNode->right = $currentNode->left->right;
+                $currentNode->left = $currentNode->left->left;
+            } else if ($rightNodeExists) {
+                $currentNode->value = $currentNode->right->value;
+                $currentNode->left = $currentNode->right->left;
+                $currentNode->right = $currentNode->right->right;
+            }
+        } else if ($parentNode->left === $currentNode) {
+            $parentNode->left = $leftNodeExists ? $currentNode->left : $currentNode->right;
+        } else if ($parentNode->right === $currentNode) {
+            $parentNode->right = $leftNodeExists ? $currentNode->left : $currentNode->right;
+        }
+    }
+
+    public function getMinValue() {
         $currentNode = $this;
         while ($currentNode->left !== null) {
             $currentNode = $currentNode->left;
@@ -120,25 +116,23 @@ class BST
         return $currentNode->value;
     }
 
-    public function printTree()
-    {
-        $queue = new SplQueue();
-        $queue->enqueue($this);
-        $result = [];
-        while (!$queue->isEmpty()) {
-            $node = $queue->dequeue();
-            $result[] = $node->value;
-            if ($node->left) {
-                $queue->enqueue($node->left);
+    public function printTree() {
+        $currentNode = $this;
+        $tree = [];
+        $queue = [];
+        $queue[] = $currentNode;
+        while (count($queue) > 0) {
+            $currentNode = array_shift($queue);
+            $tree[] = $currentNode->value;
+            if ($currentNode->left !== null) {
+                $queue[] = $currentNode->left;
             }
-            if ($node->right) {
-                $queue->enqueue($node->right);
+            if ($currentNode->right !== null) {
+                $queue[] = $currentNode->right;
             }
         }
-        return $result;
+        return $tree;
     }
-
-
 }
 
 $bst = new BST(50);
