@@ -47,3 +47,6 @@ This repository contains the implementation of various data structures and algor
 11. [Zero Sum Subarray](./Medium/ZeroSumSubarray.php)
 12. [Missing Numbers](./Medium/MissingNumbers.php)
 13. [BST Construction](./Medium/BSTConstruction.php)
+14. [Validate BST](./Medium/ValidateBST.php)
+15. [BST Traversal](./Medium/BSTTraversal.php)
+16. [Min Height BST](./Medium/MinHeightBST.php)
