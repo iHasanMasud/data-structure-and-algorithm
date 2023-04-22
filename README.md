@@ -51,3 +51,4 @@ This repository contains the implementation of various data structures and algor
 15. [BST Traversal](./Medium/BSTTraversal.php)
 16. [Min Height BST](./Medium/MinHeightBST.php)
 17. [Find Kth Largest Value In BST](./Medium/FindKthLargestValueInBST.php)
+18. [Reconstruct BST](./Medium/ReconstructBST.php)
