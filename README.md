@@ -52,3 +52,4 @@ This repository contains the implementation of various data structures and algor
 16. [Min Height BST](./Medium/MinHeightBST.php)
 17. [Find Kth Largest Value In BST](./Medium/FindKthLargestValueInBST.php)
 18. [Reconstruct BST](./Medium/ReconstructBST.php)
+19. [Invert Binary Tree](./Medium/InvertBinaryTree.php)
