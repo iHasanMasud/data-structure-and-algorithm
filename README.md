@@ -54,3 +54,4 @@ This repository contains the implementation of various data structures and algor
 18. [Reconstruct BST](./Medium/ReconstructBST.php)
 19. [Invert Binary Tree](./Medium/InvertBinaryTree.php)
 20. [Binary Tree Diameter](./Medium/BinaryTreeDiameter.php)
+21. [Find Successor](./Medium/FindSuccessor.php)
