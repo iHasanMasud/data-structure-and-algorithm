@@ -57,3 +57,4 @@ This repository contains the implementation of various data structures and algor
 21. [Find Successor](./Medium/FindSuccessor.php)
 22. [Height Balanced Binary Tree](./Medium/HeightBalancedBinaryTree.php)
 23. [Merge Binary Trees](./Medium/MergeBinaryTrees.php)
+24. [SymmetricalTree](./Medium/SymmetricalTree.php)
