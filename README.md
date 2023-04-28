@@ -56,3 +56,4 @@ This repository contains the implementation of various data structures and algor
 20. [Binary Tree Diameter](./Medium/BinaryTreeDiameter.php)
 21. [Find Successor](./Medium/FindSuccessor.php)
 22. [Height Balanced Binary Tree](./Medium/HeightBalancedBinaryTree.php)
+23. [Merge Binary Trees](./Medium/MergeBinaryTrees.php)
