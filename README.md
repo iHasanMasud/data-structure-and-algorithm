@@ -58,3 +58,4 @@ This repository contains the implementation of various data structures and algor
 22. [Height Balanced Binary Tree](./Medium/HeightBalancedBinaryTree.php)
 23. [Merge Binary Trees](./Medium/MergeBinaryTrees.php)
 24. [SymmetricalTree](./Medium/SymmetricalTree.php)
+25. [Split Binary Tree](./Medium/SplitBinaryTree.php)
