@@ -61,3 +61,4 @@ This repository contains the implementation of various data structures and algor
 25. [Split Binary Tree](./Medium/SplitBinaryTree.php)
 26. [Max Subset Sum No Adjacent](./Medium/MaxSubsetSumNoAdjacent.php)
 27. [Number Of Ways To Make Change](./Medium/NumberOfWaysToMakeChange.php)
+28. [Number of ways to traverse graph](./Medium/NumberOfWaysToTraverseGraph.php)
