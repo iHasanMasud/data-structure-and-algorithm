@@ -65,3 +65,4 @@ This repository contains the implementation of various data structures and algor
 29. [Stable Internships](./Medium/StableInternships.php)
 30. [Union Find](./Medium/UnionFind.php)
 31. [Single Cycle Check](./Medium/SingleCycleCheck.php)
+32. [Breadth First Search](./Medium/BreadthFirstSearch.php)
