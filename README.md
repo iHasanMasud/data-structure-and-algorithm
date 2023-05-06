@@ -66,3 +66,4 @@ This repository contains the implementation of various data structures and algor
 30. [Union Find](./Medium/UnionFind.php)
 31. [Single Cycle Check](./Medium/SingleCycleCheck.php)
 32. [Breadth First Search](./Medium/BreadthFirstSearch.php)
+33. [River Sizes](./Medium/RiverSizes.php)

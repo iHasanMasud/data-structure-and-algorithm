@@ -7,6 +7,7 @@
  * Implement the breadthFirstSearch method on the Node class, which takes in an empty array, traverses the tree using
  * the Breadth-first Search approach (specifically navigating the tree from left to right), stores all of the nodes'
  * names in the input array, and returns it.
+ * Reference: https://www.youtube.com/watch?v=qul0f79gxGs
  */
 
 class Node {
