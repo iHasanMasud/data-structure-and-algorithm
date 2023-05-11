@@ -70,3 +70,4 @@ This repository contains the implementation of various data structures and algor
 34. [Youngest Common Ancestor](./Medium/YoungestCommonAncestor.php)
 35. [Remove Islands](./Medium/RemoveIslands.php)
 36. [Cycle In Graph](./Medium/CycleInGraph.php)
+37. [Minimum Passes Of Matrix](./Medium/MinimumPassesOfMatrix.php)
