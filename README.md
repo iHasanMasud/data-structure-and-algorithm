@@ -69,3 +69,4 @@ This repository contains the implementation of various data structures and algor
 33. [River Sizes](./Medium/RiverSizes.php)
 34. [Youngest Common Ancestor](./Medium/YoungestCommonAncestor.php)
 35. [Remove Islands](./Medium/RemoveIslands.php)
+36. [Cycle In Graph](./Medium/CycleInGraph.php)
