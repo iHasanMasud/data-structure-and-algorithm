@@ -76,3 +76,4 @@ This repository contains the implementation of various data structures and algor
 40. [Valid Starting City](./Medium/ValidStartingCity.php)
 41. [Min Heap Construction](./Medium/MinHeapConstruction.php)
 42. [Linked List Construction](./Medium/LinkedListConstruction.php)
+43. [Remove Kth Node From End](./Medium/RemoveKthNodeFromEnd.php)
