@@ -74,3 +74,4 @@ This repository contains the implementation of various data structures and algor
 38. [Two Colorable](./Medium/TwoColorable.php)
 39. [Task Assignment](./Medium/TaskAssignment.php)
 40. [Valid Starting City](./Medium/ValidStartingCity.php)
+41. [Min Heap Construction](./Medium/MinHeapConstruction.php)
