@@ -75,3 +75,4 @@ This repository contains the implementation of various data structures and algor
 39. [Task Assignment](./Medium/TaskAssignment.php)
 40. [Valid Starting City](./Medium/ValidStartingCity.php)
 41. [Min Heap Construction](./Medium/MinHeapConstruction.php)
+42. [Linked List Construction](./Medium/LinkedListConstruction.php)

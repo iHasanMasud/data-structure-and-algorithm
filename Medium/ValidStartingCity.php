@@ -19,6 +19,8 @@
  * per gallon of fuel (miles per gallon, or MPG). You can assume that you will always be given at least two cities.
  *
  * Write a function that returns the index of the valid starting city.
+ *
+ * Reference: https://www.youtube.com/watch?v=ciM7NfYFH78
  */
 
 function validStartingCity($distances, $fuel, $mpg)
