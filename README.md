@@ -33,6 +33,7 @@ This repository contains the implementation of various data structures and algor
 28. [Middle Node](./Easy/MiddleNode.php)
 29. [Evaluate Expression Tree](./Easy/EvaluateExpressionTree.php)
 30. [Optimal Freelancing](./Easy/OptimalFreelancing.php)
+31. [Transpose Matrix](./Easy/TransposeMatrix.php)
 
 #### Medium
 1. [Three Number Sum](./Medium/ThreeNumberSum.php)
