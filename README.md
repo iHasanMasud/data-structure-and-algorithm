@@ -32,6 +32,8 @@ This repository contains the implementation of various data structures and algor
 27. [Common Characters](./Easy/CommonCharacters.php)
 28. [Middle Node](./Easy/MiddleNode.php)
 29. [Evaluate Expression Tree](./Easy/EvaluateExpressionTree.php)
+30. [Optimal Freelancing](./Easy/OptimalFreelancing.php)
+31. [Transpose Matrix](./Easy/TransposeMatrix.php)
 
 #### Medium
 1. [Three Number Sum](./Medium/ThreeNumberSum.php)
@@ -77,3 +79,4 @@ This repository contains the implementation of various data structures and algor
 41. [Min Heap Construction](./Medium/MinHeapConstruction.php)
 42. [Linked List Construction](./Medium/LinkedListConstruction.php)
 43. [Remove Kth Node From End](./Medium/RemoveKthNodeFromEnd.php)
+44. [Majority Element](./Medium/MajorityElement.php)
