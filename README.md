@@ -79,3 +79,4 @@ This repository contains the implementation of various data structures and algor
 41. [Min Heap Construction](./Medium/MinHeapConstruction.php)
 42. [Linked List Construction](./Medium/LinkedListConstruction.php)
 43. [Remove Kth Node From End](./Medium/RemoveKthNodeFromEnd.php)
+44. [Majority Element](./Medium/MajorityElement.php)
