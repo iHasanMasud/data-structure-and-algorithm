@@ -80,3 +80,5 @@ This repository contains the implementation of various data structures and algor
 42. [Linked List Construction](./Medium/LinkedListConstruction.php)
 43. [Remove Kth Node From End](./Medium/RemoveKthNodeFromEnd.php)
 44. [Majority Element](./Medium/MajorityElement.php)
+45. [Sweet and Savory](./Medium/SweetAndSavory.php)
+46. [Sum of Linked Lists](./Medium/SumOfLinkedLists.php)
