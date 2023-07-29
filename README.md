@@ -84,3 +84,4 @@ This repository contains the implementation of various data structures and algor
 46. [Sum of Linked Lists](./Medium/SumOfLinkedLists.php)
 47. [Merging Linked Lists](./Medium/MergingLinkedLists.php)
 48. [Permutations](./Medium/Permutations.php)
+49. [Powerset](./Medium/Powerset.php)
