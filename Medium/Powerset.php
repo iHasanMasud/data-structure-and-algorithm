@@ -6,6 +6,8 @@
  * The powerset P(X) of a set X is the set of all subsets of X. For example, the powerset of [1,2] is [[], [1], [2], [1,2]].
  *
  * Note that the sets in the powerset do not need to be in any particular order.
+ *
+ * Reference: https://www.youtube.com/watch?v=h4zNvA4lbtc
  */
 
 function powerset($array)
