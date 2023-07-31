@@ -12,16 +12,18 @@
  * 213 => A1D, A1E, A1F, B1D, B1E, B1F, C1E, C1E, C1F
  */
 
-function phoneNumberMnemonics($phoneNumber) {
+function phoneNumberMnemonics($phoneNumber)
+{
     $currentMnemonics = array_fill(0, strlen($phoneNumber), '0');
-    $mnemonicsFound = array();
+    $mnemonicsFound = [];
 
     phoneNumberMnemonicsHelper(0, $phoneNumber, $currentMnemonics, $mnemonicsFound);
 
     return $mnemonicsFound;
 }
 
-function phoneNumberMnemonicsHelper($idx, $phoneNumber, &$currentMnemonics, &$mnemonicsFound) {
+function phoneNumberMnemonicsHelper($idx, $phoneNumber, &$currentMnemonics, &$mnemonicsFound)
+{
 
     if ($idx == strlen($phoneNumber)) {
         $mnemonics = implode('', $currentMnemonics);
@@ -38,7 +40,7 @@ function phoneNumberMnemonicsHelper($idx, $phoneNumber, &$currentMnemonics, &$mn
 
 function getLetters($digit)
 {
-    $digitLetters =  [
+    $digitLetters = [
         0 => ['0'],
         1 => ['1'],
         2 => ['A', 'B', 'C'],
