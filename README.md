@@ -88,3 +88,4 @@ This repository contains the implementation of various data structures and algor
 50. [Phone Number Mnemonics](./Medium/PhoneNumberMnemonics.php)
 51. [Staircase Traversal](./Medium/StaircaseTraversal.php)
 52. [Blackjack Probability](./Medium/BlackjackProbability.php)
+53. [Reveal Minesweeper](./Medium/RevealMinesweeper.php)

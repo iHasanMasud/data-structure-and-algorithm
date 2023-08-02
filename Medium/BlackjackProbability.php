@@ -24,7 +24,6 @@ function blackjackProbability($target, $startingHand)
 
 function calculateProbability($currentHand, $target, $memoize)
 {
-    // if currentHand in memoize, return memoize[currentHand]
     if (isset($memoize[$currentHand])) {
         return $memoize[$currentHand];
     }
