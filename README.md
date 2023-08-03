@@ -89,3 +89,4 @@ This repository contains the implementation of various data structures and algor
 51. [Staircase Traversal](./Medium/StaircaseTraversal.php)
 52. [Blackjack Probability](./Medium/BlackjackProbability.php)
 53. [Reveal Minesweeper](./Medium/RevealMinesweeper.php)
+54. [Search in Sorted Matrix](./Medium/SearchInSortedMatrix.php)
