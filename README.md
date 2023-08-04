@@ -90,3 +90,4 @@ This repository contains the implementation of various data structures and algor
 52. [Blackjack Probability](./Medium/BlackjackProbability.php)
 53. [Reveal Minesweeper](./Medium/RevealMinesweeper.php)
 54. [Search in Sorted Matrix](./Medium/SearchInSortedMatrix.php)
+55. [Three Number Sort](./Medium/ThreeNumberSort.php)
