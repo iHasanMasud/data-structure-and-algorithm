@@ -92,3 +92,4 @@ This repository contains the implementation of various data structures and algor
 54. [Search in Sorted Matrix](./Medium/SearchInSortedMatrix.php)
 55. [Three Number Sort](./Medium/ThreeNumberSort.php)
 56. [Min Max Stack Construction](./Medium/MinMaxStackConstruction.php)
+57. [Balanced Brackets](./Medium/BalancedBrackets.php)
