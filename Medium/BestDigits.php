@@ -7,22 +7,22 @@
  * Remove numDigits digits from the string so that the number represented by the string is as large as possible afterward.
  */
 
-function bestDigits($number, $numDigits){
-    $number = str_split($number);
-    $result = [];
-    $count = 0;
-    for($i = 0; $i < count($number); $i++){
-        if($count < $numDigits){
-            if($number[$i] < $number[$i+1]){
-                $count++;
-            }else{
-                $result[] = $number[$i];
-            }
-        }else{
-            $result[] = $number[$i];
+function bestDigits($number, $numDigits) {
+    $stack = [];
+
+    foreach (str_split($number) as $digit) {
+        while (count($stack) > 0 && $numDigits > 0 && end($stack) < $digit) {
+            array_pop($stack);
+            $numDigits--;
         }
+        $stack[] = $digit;
     }
-    return implode($result);
+
+    if ($numDigits > 0){
+        array_splice($stack, count($stack) - $numDigits, $numDigits);
+    }
+
+    return implode('', $stack);
 }
 
-echo bestDigits('1234567890', 3); // 4567890
+echo bestDigits('87587598', 3); // 4567890
