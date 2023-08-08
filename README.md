@@ -94,3 +94,4 @@ This repository contains the implementation of various data structures and algor
 56. [Min Max Stack Construction](./Medium/MinMaxStackConstruction.php)
 57. [Balanced Brackets](./Medium/BalancedBrackets.php)
 58. [Sunset Views](./Medium/SunsetViews.php)
+59. [Best Digits](./Medium/BestDigits.php)
