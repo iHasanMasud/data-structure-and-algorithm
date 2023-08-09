@@ -95,3 +95,4 @@ This repository contains the implementation of various data structures and algor
 57. [Balanced Brackets](./Medium/BalancedBrackets.php)
 58. [Sunset Views](./Medium/SunsetViews.php)
 59. [Best Digits](./Medium/BestDigits.php)
+60. [Sort Stack](./Medium/SortStack.php)
