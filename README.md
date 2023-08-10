@@ -96,3 +96,4 @@ This repository contains the implementation of various data structures and algor
 58. [Sunset Views](./Medium/SunsetViews.php)
 59. [Best Digits](./Medium/BestDigits.php)
 60. [Sort Stack](./Medium/SortStack.php)
+61. [Next Greater Element](./Medium/NextGreaterElement.php)

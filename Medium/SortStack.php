@@ -42,4 +42,4 @@ function sortStack($stack)
 
 
 $stack = [1, 5, 2, 3, 4];
-print_r(sortStack($stack)); // [5, 4, 3, 2, 1]
+print_r(sortStack($stack));
