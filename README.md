@@ -98,3 +98,4 @@ This repository contains the implementation of various data structures and algor
 60. [Sort Stack](./Medium/SortStack.php)
 61. [Next Greater Element](./Medium/NextGreaterElement.php)
 62. [Reverse Polish Notation](./Medium/ReversePolishNotation.php)
+63. [Colliding Asteroids](./Medium/CollidingAsteroids.php)
