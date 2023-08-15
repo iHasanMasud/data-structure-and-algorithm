@@ -100,3 +100,4 @@ This repository contains the implementation of various data structures and algor
 62. [Reverse Polish Notation](./Medium/ReversePolishNotation.php)
 63. [Colliding Asteroids](./Medium/CollidingAsteroids.php)
 64. [Longest Palindromic Substring](./Medium/LongestPalindromicSubstring.php)
+65. [Group Anagrams](./Medium/GroupAnagrams.php)
