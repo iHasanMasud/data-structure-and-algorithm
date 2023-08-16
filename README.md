@@ -101,3 +101,4 @@ This repository contains the implementation of various data structures and algor
 63. [Colliding Asteroids](./Medium/CollidingAsteroids.php)
 64. [Longest Palindromic Substring](./Medium/LongestPalindromicSubstring.php)
 65. [Group Anagrams](./Medium/GroupAnagrams.php)
+66. [Valid IP Addresses](./Medium/ValidIPAddresses.php)
