@@ -103,3 +103,4 @@ This repository contains the implementation of various data structures and algor
 65. [Group Anagrams](./Medium/GroupAnagrams.php)
 66. [Valid IP Addresses](./Medium/ValidIPAddresses.php)
 67. [Reverse Words In String](./Medium/ReverseWordsInString.php)
+68. [Minimum Characters For Words](./Medium/MinimumCharactersForWords.php)
