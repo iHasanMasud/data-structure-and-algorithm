@@ -105,3 +105,4 @@ This repository contains the implementation of various data structures and algor
 67. [Reverse Words In String](./Medium/ReverseWordsInString.php)
 68. [Minimum Characters For Words](./Medium/MinimumCharactersForWords.php)
 69. [One Edit](./Medium/OneEdit.php)
+70. [Suffix Trie Construction](./Medium/SuffixTrieConstruction.php)
