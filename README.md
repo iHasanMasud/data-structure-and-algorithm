@@ -106,3 +106,6 @@ This repository contains the implementation of various data structures and algor
 68. [Minimum Characters For Words](./Medium/MinimumCharactersForWords.php)
 69. [One Edit](./Medium/OneEdit.php)
 70. [Suffix Trie Construction](./Medium/SuffixTrieConstruction.php)
+
+#### Hard
+1. [Four Number Sum](./Hard/FourNumberSum.php)
