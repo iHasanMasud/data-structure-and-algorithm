@@ -111,3 +111,4 @@ This repository contains the implementation of various data structures and algor
 1. [Four Number Sum](./Hard/FourNumberSum.php)
 2. [Subarray Sort](./Hard/SubarraySort.php)
 3. [Largest Range](./Hard/LargestRange.php)
+4. [Min Rewards](./Hard/MinRewards.php)
