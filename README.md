@@ -113,3 +113,4 @@ This repository contains the implementation of various data structures and algor
 3. [Largest Range](./Hard/LargestRange.php)
 4. [Min Rewards](./Hard/MinRewards.php)
 5. [Zigzag Traverse](./Hard/ZigzagTraverse.php)
+6. [Longest Subarray With Sum](./Hard/LongestSubarrayWithSum.php)
